@@ -42,11 +42,12 @@ void print_menu();
 void add_contact();
 void edit_contact();
 void delete_contact();
-		// các hàm thêm
+// các hàm thêm
 void search_contact();
 void list_month();
 void list_all();
-		//
+//
+
 
 int main()
 {
@@ -54,13 +55,11 @@ int main()
 
 	do
 	{
-		system("cls"); // for unix
-		// system("cls"); // for windows
+		system("cls"); 
 		print_menu();
 		scanf("%c%*c", &choice);
 
-		system("cls"); // for unix
-		// system("cls"); // for windows
+		system("cls"); 
 
 		printf("CONTACT KEEPER\n");
 		printf("==============\n\n");
@@ -75,6 +74,15 @@ int main()
 				break;
 			case '3':
 				delete_contact();
+				break;
+			case '4':
+				search_contact();
+				break;
+			case '5':
+				list_month();
+				break;
+			case '6':
+				list_all();
 				break;
 		}
 		
@@ -98,8 +106,11 @@ void print_menu()
 	printf("1. Add Contact\n");
 	printf("2. Edit Contact\n");
 	printf("3. Delete Contact\n");
+	printf("4. Search Contact\n");
+	printf("5. Show list Contact\n");
+	printf("6. show list Contact with birday by given month\n");
 	printf("q. Quit\n\n");
-	printf("Enter your choice (1/2/3/q): ");
+	printf("Enter your choice (1/2/3/4/5/6/q): ");
 }
 
 
@@ -119,3 +130,54 @@ void delete_contact()
 {
 	printf("Write your code here to delete contact.");
 }
+
+//ham them
+void search_contact()
+{
+	printf("Write your code here to delete contact.");
+}
+
+
+void list_month()
+{
+	printf("Write your code here to delete contact.");
+}
+
+
+void list_all()
+{
+	printf("Write your code here to delete contact.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
