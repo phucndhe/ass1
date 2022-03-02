@@ -48,6 +48,30 @@ void list_month();
 void list_all();
 //
 
+// t khai baos 1 struct kieu ngay sinh
+typedef struct born
+{
+	int date;
+	int month;
+	int year;
+}bd;
+
+// day la kieu khai bao 1 struct kieu con nguoi, la tat ca cac thong tin de contact
+typedef struct ng
+{
+
+	char first_name[10];
+	char last_name[25];
+	char company[40];
+	int phone_number;
+	char email[50];
+	char working_address[100];
+	char home_address[100];
+	bd birday;
+	
+}person;
+
+
 
 int main()
 {
@@ -148,36 +172,5 @@ void list_all()
 {
 	printf("Write your code here to delete contact.");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
