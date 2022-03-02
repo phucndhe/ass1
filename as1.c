@@ -42,7 +42,11 @@ void print_menu();
 void add_contact();
 void edit_contact();
 void delete_contact();
-
+		// các hàm thêm
+void search_contact();
+void list_month();
+void list_all();
+		//
 
 int main()
 {
