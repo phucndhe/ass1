@@ -8,7 +8,7 @@ sau đấy mình sẽ phân tích từng hàm con kia ra xem từng mức độ 
 edit duoc roi nay
 ngonnnnnnn
 
-
+jkkjkjkjikuhihyg8uiiuyui
 
 t phai pull request trc thi moi dc as
 uyt8
