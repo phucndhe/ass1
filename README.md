@@ -7,7 +7,7 @@ sau đấy mình sẽ phân tích từng hàm con kia ra xem từng mức độ 
 
 edit duoc roi nay
 ngonnnnnnn
-
+gbhghvgjhvjughhjgjh
 
 
 t phai pull request trc thi moi dc as
